@@ -36,9 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if self.window?.rootViewController?.presentedViewController is LandscapeViewController {
             
-            let secondController = self.window!.rootViewController!.presentedViewController as! LandscapeViewController
+            let landScapeController = self.window!.rootViewController!.presentedViewController as! LandscapeViewController
             
-            if secondController.isPresented {
+            if landScapeController.isPresented {
+                //Set to Left
                 return UIInterfaceOrientationMask.LandscapeLeft;
             } else {
                 return UIInterfaceOrientationMask.Portrait;

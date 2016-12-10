@@ -14,6 +14,7 @@
 		8B20AE541DFBF38C0035CFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B20AE521DFBF38C0035CFD9 /* LaunchScreen.storyboard */; };
 		8B20AE5F1DFBF38C0035CFD9 /* SDLandScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE5E1DFBF38C0035CFD9 /* SDLandScapeTests.swift */; };
 		8B20AE6A1DFBF38C0035CFD9 /* SDLandScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE691DFBF38C0035CFD9 /* SDLandScapeUITests.swift */; };
+		8B20AE781DFBF3D90035CFD9 /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20AE771DFBF3D90035CFD9 /* LandscapeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8B20AE651DFBF38C0035CFD9 /* SDLandScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDLandScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B20AE691DFBF38C0035CFD9 /* SDLandScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLandScapeUITests.swift; sourceTree = "<group>"; };
 		8B20AE6B1DFBF38C0035CFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B20AE771DFBF3D90035CFD9 /* LandscapeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8B20AE501DFBF38C0035CFD9 /* Assets.xcassets */,
 				8B20AE521DFBF38C0035CFD9 /* LaunchScreen.storyboard */,
 				8B20AE551DFBF38C0035CFD9 /* Info.plist */,
+				8B20AE771DFBF3D90035CFD9 /* LandscapeViewController.swift */,
 			);
 			path = SDLandScape;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					8B20AE451DFBF38C0035CFD9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WAS6TN49RL;
 					};
 					8B20AE591DFBF38C0035CFD9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -257,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B20AE4C1DFBF38C0035CFD9 /* ViewController.swift in Sources */,
+				8B20AE781DFBF3D90035CFD9 /* LandscapeViewController.swift in Sources */,
 				8B20AE4A1DFBF38C0035CFD9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,9 +406,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SDLandScape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = landscape.SDLandScape;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapdeal.sellers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SDLandScape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = landscape.SDLandScape;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snapdeal.sellers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
